@@ -1,0 +1,977 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ILog",
+        "printedName": "ILog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ILog",
+                "printedName": "iLogger.ILog",
+                "usr": "c:@M@iLogger@objc(cs)ILog"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iLogger4ILogC6sharedACvpZ",
+            "mangledName": "$s7iLogger4ILogC6sharedACvpZ",
+            "moduleName": "iLogger",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ILog",
+                    "printedName": "iLogger.ILog",
+                    "usr": "c:@M@iLogger@objc(cs)ILog"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iLogger4ILogC6sharedACvgZ",
+                "mangledName": "$s7iLogger4ILogC6sharedACvgZ",
+                "moduleName": "iLogger",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLoggingEnabled",
+            "printedName": "isLoggingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iLogger4ILogC16isLoggingEnabledSbvp",
+            "mangledName": "$s7iLogger4ILogC16isLoggingEnabledSbvp",
+            "moduleName": "iLogger",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iLogger4ILogC16isLoggingEnabledSbvg",
+                "mangledName": "$s7iLogger4ILogC16isLoggingEnabledSbvg",
+                "moduleName": "iLogger",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iLogger4ILogC16isLoggingEnabledSbvs",
+                "mangledName": "$s7iLogger4ILogC16isLoggingEnabledSbvs",
+                "moduleName": "iLogger",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iLogger4ILogC16isLoggingEnabledSbvM",
+                "mangledName": "$s7iLogger4ILogC16isLoggingEnabledSbvM",
+                "moduleName": "iLogger",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ILog",
+                "printedName": "iLogger.ILog",
+                "usr": "c:@M@iLogger@objc(cs)ILog"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iLogger@objc(cs)ILog(im)init",
+            "mangledName": "$s7iLogger4ILogCACycfc",
+            "moduleName": "iLogger",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iLogger@objc(cs)ILog",
+        "mangledName": "$s7iLogger4ILogC",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "ILogError",
+        "printedName": "ILogError(_:filename:line:column:funcName:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7iLogger9ILogError_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "mangledName": "$s7iLogger9ILogError_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ILogInfo",
+        "printedName": "ILogInfo(_:filename:line:column:funcName:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7iLogger8ILogInfo_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "mangledName": "$s7iLogger8ILogInfo_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ILogDebug",
+        "printedName": "ILogDebug(_:filename:line:column:funcName:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7iLogger9ILogDebug_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "mangledName": "$s7iLogger9ILogDebug_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ILogVerbose",
+        "printedName": "ILogVerbose(_:filename:line:column:funcName:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7iLogger11ILogVerbose_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "mangledName": "$s7iLogger11ILogVerbose_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ILogWarning",
+        "printedName": "ILogWarning(_:filename:line:column:funcName:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7iLogger11ILogWarning_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "mangledName": "$s7iLogger11ILogWarning_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ILogSevere",
+        "printedName": "ILogSevere(_:filename:line:column:funcName:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7iLogger10ILogSevere_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "mangledName": "$s7iLogger10ILogSevere_8filename4line6column8funcNameyyp_SSS2iSStF",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ILogResponseTime",
+        "printedName": "ILogResponseTime(_:staringTime:filename:line:column:funcName:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Date",
+            "printedName": "Foundation.Date",
+            "usr": "s:10Foundation4DateV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7iLogger16ILogResponseTime_07staringD08filename4line6column8funcNameyyp_10Foundation4DateVSSS2iSStF",
+        "mangledName": "$s7iLogger16ILogResponseTime_07staringD08filename4line6column8funcNameyyp_10Foundation4DateVSSS2iSStF",
+        "moduleName": "iLogger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 159,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 7,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 6,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 8,
+      "value": "\"🔴  \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 10,
+      "value": "\"⚪️  \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 8,
+      "value": "\"🔵  \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 8,
+      "value": "\"🟢  \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 8,
+      "value": "\"🟠  \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 8,
+      "value": "\"🔺  \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 8,
+      "value": "\"🕐  \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 159,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 7,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 6,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 159,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 7,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 6,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 804,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 844,
+      "length": 24,
+      "value": "\"dd-MM-yyyy hh:mm:ssSSS\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1533,
+      "length": 132,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1556,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1580,
+      "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1618,
+      "length": 1,
+      "value": "\"]:\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1627,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1637,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 2,
+      "value": "\" -> \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1662,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2151,
+      "length": 184,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2174,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2214,
+      "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 1,
+      "value": "\"]:\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2271,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2283,
+      "length": 2,
+      "value": "\" -> Time Taken for \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2311,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2324,
+      "length": 7,
+      "value": "\" seconds\n\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2506,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/himanshuaggarwal\/Documents\/GitHubWorks\/ReuseableFramework\/iLogger\/iLogger\/iLogger\/iLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2547,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

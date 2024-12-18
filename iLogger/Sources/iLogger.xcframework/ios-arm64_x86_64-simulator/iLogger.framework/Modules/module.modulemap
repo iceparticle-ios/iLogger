@@ -1,0 +1,11 @@
+framework module iLogger {
+  umbrella header "iLogger.h"
+  export *
+
+  module * { export * }
+}
+
+module iLogger.Swift {
+  header "iLogger-Swift.h"
+  requires objc
+}
